@@ -7,6 +7,7 @@
     "dev": "nodemon src/index.js",
     "build": "webpack --mode=production",
     "seed": "node src/utils/seeder.js",
+    "test:email": "node scripts/testEmails.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Md. Shadat Hossain",
